@@ -38,13 +38,14 @@
   font-weight: bold;
   margin-top: 10px;
   float: right;
+  overflow: visible;
 }
 
 .image-caption a {
   color: black;
   text-decoration: none;
   font-weight: bold;
-  float: right;
+  overflow: visible;
 }
 
 .image-number {
