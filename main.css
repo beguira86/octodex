@@ -1,38 +1,56 @@
 .octocat {
   float: left;
   width: 30%;
-  margin: 30px;
-  border: 
+  margin: 1%;
+  border-bottom: 1px solid lightgray;
 }
 
 .octocat img {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
+  width: 100%;
 }
 
 .image-footer img {
   border: none;
-  max-height: 75px;
-  max-width: 75px;
+  max-width: 10%;
+  float: right;
 }
 
+.image-number:before {
+   content: "#";
+}
 
 .authors {
-  float: right;
-  max_width: 1px;
-  
+  float: right; 
+}
+
+.authors img {
+  border-radius: 20%;
 }
 
 .image-caption {
-  float: right;
+  color: gray;
+}
+
+.image-footer {
+  display: inline-block;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.image-caption a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .image-number {
   float: left;
-  color: gray
-  
-}
+  color: lightgray;
+ }
+
+
 
 ul {
  list-style: none;
-
 }
