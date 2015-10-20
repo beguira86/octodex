@@ -13,6 +13,7 @@
 .image-footer img {
   border: none;
   max-width: 5%;
+  float: right;
 }
 
 .image-number:before {
