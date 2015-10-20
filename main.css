@@ -1,7 +1,7 @@
 .octocat {
   float: left;
   width: 30%;
-  margin: 30px;
+  margin: 1%;
   border-bottom: 1px solid lightgray;
 }
 
@@ -12,7 +12,7 @@
 
 .image-footer img {
   border: none;
-  max-width: 5%;
+  max-width: 10%;
   float: right;
 }
 
@@ -29,13 +29,14 @@
 }
 
 .image-caption {
-  float: right;
+  display: inline;
   color: gray;
 }
 
 .image-footer {
   font-family: helvetica;
   font-weight: bold;
+  display: inline;
 }
 
 .image-caption a {
